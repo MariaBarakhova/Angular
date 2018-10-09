@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'node',
+1 verbose cli   '8.12.0' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData 8.12.0
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'node',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'node',
+13 silly mapToRegistry   name: 'node',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/node
+15 silly fetchNamedPackageData 8.12.0
+16 silly mapToRegistry name 8.12.0
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: '8.12.0',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: '8.12.0',
+19 silly mapToRegistry   name: '8.12.0',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/8.12.0
+21 verbose request uri https://registry.npmjs.org/8.12.0
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 13:33:08
+24 verbose request id 3749cdc590bfdc51
+25 http request GET https://registry.npmjs.org/8.12.0
+26 verbose request uri https://registry.npmjs.org/node
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 13:33:08
+29 verbose etag W/"8d5a775fcfa216a7561de392540e6763"
+30 verbose lastModified Mon, 24 Sep 2018 01:57:11 GMT
+31 http request GET https://registry.npmjs.org/node
+32 http 304 https://registry.npmjs.org/node
+33 verbose headers { date: 'Sun, 30 Sep 2018 10:33:05 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie': [ '__cfduid=d102ca438841fa182f6146b5acf99b1b91538303585; expires=Mon, 30-Sep-19 10:33:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-ray': '4626077f6c618d8f-DME',
+33 verbose headers   etag: '"8d5a775fcfa216a7561de392540e6763"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Mon, 24 Sep 2018 01:57:11 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'x-amz-meta-rev': '432-e9caf38f1c2fb0a80d1dfb9cbbfd7637',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Sun, 30 Sep 2018 10:33:05 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie': [ '__cfduid=d102ca438841fa182f6146b5acf99b1b91538303585; expires=Mon, 30-Sep-19 10:33:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-ray': '4626077f6c618d8f-DME',
+34 silly get     etag: '"8d5a775fcfa216a7561de392540e6763"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Mon, 24 Sep 2018 01:57:11 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'x-amz-meta-rev': '432-e9caf38f1c2fb0a80d1dfb9cbbfd7637',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/node from cache
+36 verbose get saving node to C:\Users\1111\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+37 verbose correctMkdir C:\Users\1111\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 http 404 https://registry.npmjs.org/8.12.0
+39 verbose headers { date: 'Sun, 30 Sep 2018 10:33:05 GMT',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'content-length': '21',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'set-cookie': [ '__cfduid=dd6621d843f34f0ec10ab9708fa8587c71538303585; expires=Mon, 30-Sep-19 10:33:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+39 verbose headers   'cf-cache-status': 'MISS',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'cf-ray': '4626077f4a904e5a-DME',
+39 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 verbose headers   vary: 'accept-encoding, accept',
+39 verbose headers   server: 'cloudflare' }
+40 silly get cb [ 404,
+40 silly get   { date: 'Sun, 30 Sep 2018 10:33:05 GMT',
+40 silly get     'content-type': 'application/json',
+40 silly get     'content-length': '21',
+40 silly get     connection: 'keep-alive',
+40 silly get     'set-cookie': [ '__cfduid=dd6621d843f34f0ec10ab9708fa8587c71538303585; expires=Mon, 30-Sep-19 10:33:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+40 silly get     'cf-cache-status': 'MISS',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     'cf-ray': '4626077f4a904e5a-DME',
+40 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 silly get     vary: 'accept-encoding, accept',
+40 silly get     server: 'cloudflare' } ]
+41 silly fetchPackageMetaData Error: Not found : 8.12.0
+41 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+41 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+41 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+41 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+41 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+41 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+41 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+41 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 silly fetchPackageMetaData  error for 8.12.0 { Error: Not found : 8.12.0
+41 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+41 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+41 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+41 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+41 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+41 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+41 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+41 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '8.12.0', statusCode: 404, code: 'E404' }
+42 silly rollbackFailedOptional Starting
+43 silly rollbackFailedOptional Finishing
+44 silly runTopLevelLifecycles Finishing
+45 silly install printInstalled
+46 verbose stack Error: Not found : 8.12.0
+46 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+46 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+46 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+46 verbose stack     at emitTwo (events.js:106:13)
+46 verbose stack     at Request.emit (events.js:191:7)
+46 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+46 verbose stack     at emitOne (events.js:96:13)
+46 verbose stack     at Request.emit (events.js:188:7)
+46 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+47 verbose statusCode 404
+48 verbose pkgid 8.12.0
+49 verbose cwd E:\MariaB\hero
+50 error Windows_NT 10.0.17134
+51 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "node" "8.12.0"
+52 error node v6.9.5
+53 error npm  v3.10.10
+54 error code E404
+55 error 404 Not found : 8.12.0
+56 error 404
+57 error 404 '8.12.0' is not in the npm registry.
+58 error 404 You should bug the author to publish it (or use the name yourself!)
+59 error 404 Note that you can also install from a
+60 error 404 tarball, folder, http url, or git url.
+61 verbose exit [ 1, true ]

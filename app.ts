@@ -93,20 +93,40 @@
 // console.log(someFigure.name);
 
 
-abstract class Unit {
-    constructor(
-        protected name: string, 
-        protected color: 'black' | 'white',){
+// abstract class Unit {
+//     constructor(
+//         protected name: string, 
+//         protected color: 'black' | 'white',){
 
-    }
-    abstract move(): void
-}
+//     }
+//     abstract move(): void
+// }
 
-class Pown extends Unit{
-    move(): void{
-        console.log('I am a pown and I go only forward');
-    }
-}
+// class Pown extends Unit{
+//     move(): void{
+//         console.log('I am a pown and I go only forward');
+//     }
+// }
 
-const fig1 = new Pown('pown1', 'black');
-console.log(fig1, fig1.move());
+// const fig1 = new Pown('pown1', 'black');
+// console.log(fig1, fig1.move());
+
+
+
+// interface IUser {
+//     id: number;
+//     name: string;
+// }
+
+// interface IUserArray {
+//     [index: number]: string;
+// }
+ 
+// let arr: IUserArray = [
+//     {id: 1, name: 'Name1'},
+//     {id: 2, name: 'Name2'},
+
+// ]
+
+// console.log(arr[2]);
+ 
